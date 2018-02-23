@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio:Sai Charan K</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="/resources/css/style.css" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+		<div id="spinHead">
+		<div class="spinner"></div>
+	</div>
+	<nav class="navbar navbar-expand-lg bg-nav fixed-top text-uppercase" id="mainNav">
+			<div class="container">
+					<a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="rounded-circle" src="/resources/images/prof-img.jpg" alt=""></a>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item mx-0 mx-lg-1">
+							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">My Works</a>
+						</li>
+						<li class="nav-item mx-0 mx-lg-1">
+							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<p style="display:none" id="res"><%= result %></p>
+		
+		<header class="masthead bg-white text-white text-center">
+				<div class="alert alert-<%= result %> alert-dismissible" role="alert" style="display:none">
+						<strong><%= result1 %></strong>
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						</div>
+				<div class="container">
+					<h1 class="text-uppercase mb-0">Sai Charan K</h1>
+					<br/>
+					<h4 class="text-center">krishnagiri.saicharan1995@gmail.com</h4>
+					<hr/>
+					
+							<p class="lead">Full Stack developer with 2+ years of experience.
+								Involved in designing, development and deployment of web applications.
+							</p>
+								<p class="lead">Skill Set</p>
+									<p class="lead">Java – J2EE, Spring MVC, Spring Boot, Spring Security</p>
+										<p class="lead">Web – HTML, CSS.</p>
+										<p class="lead">JavaScript – Node, Angular, jQuery.</p>
+										<p class="lead">Database – MongoDB, Oracle, MySQL.</p>
+										<p class="lead">Knowledge of Cloud(AWS), Heroku</p>
+					<div class="row">
+							<div class="ml-auto">
+																	
+							</div>
+						</div>
+						<div class="text-center mt-4">
+								<a class="btn btn-secondary" href="/resources/ext/Sai charan k.pdf">
+									<i class="fa fa-download mr-2"></i>
+									Resume
+								</a>
+							</div>
+				</div>
+			</header>
+			
+				<section class="portfolio bg-portfolio" id="portfolio">
+						<div class="container">
+							<h2 class="text-center text-uppercase text-primary mb-0">My Work</h2>
+							<br/>
+							
+							<div class="col-xs-6 text-center">
+							<a data-toggle="tooltip" title="GitHub" href="https://github.com/charan94" class="text-href" target="_blank"><span class="fab fa-github fa-3x"></span></a>
+							<span style="font-size: 2.5em;" class="text-href">&nbsp;</span>
+							<a data-toggle="tooltip" title="LinkedIn" href="https://www.linkedin.com/in/sai-charan-krishnagiri/" class="text-href" target="_blank"><span class="fab fa-linkedin fa-3x"></span></a>
+							</div>
+							<hr/>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-6 text-center">
+									<h4 class="text-primary">Articles</h4><br/>
+									<p class="lead"><a href="https://www.linkedin.com/pulse/server-side-search-using-datatables-spring-mvc-sai-charan/" target="_blank" class="text-href">Implementing Serverside search using datatables.</a></p>
+								</div>
+								<div class="col-sm-6 text-center">
+									<h4 class="text-primary">Project Links</h4><br/>
+									<p class="lead"><a href="https://github.com/charan94/ServerSide-Pagination-Using-DataTabes-API" target="_blank" class="text-href">Impementing Serverside search using DataTables API</a></p>
+									</div>
+								</div>
+						</div>
+					</section>
+					<section id="contact" class="bg-contact">
+							<div class="container">
+								<h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+								<br/>
+								<hr/>
+								<div class="row">
+										<div class="col-lg-8 mx-auto">
+											
+											<form name="sentMessage" id="contactForm" action="/" method="POST">
+												<div class="control-group">
+													<div class="form-group floating-label-form-group controls mb-0 pb-2">
+														<label for="name" style="color: #ffc107">Name</label>
+														<input class="form-control" name="name" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." aria-invalid="false">
+														<p class="help-block text-danger"></p>
+													</div>
+												</div>
+												<div class="control-group">
+													<div class="form-group floating-label-form-group controls mb-0 pb-2">
+														<label style="color: #ffc107" for="email">Email Address</label>
+														<input class="form-control" name="email" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+														<p class="help-block text-danger"></p>
+													</div>
+												</div>
+												<div class="control-group">
+													<div class="form-group floating-label-form-group controls mb-0 pb-2">
+														<label style="color: #ffc107" for="phone">Phone Number</label>
+														<input class="form-control" name="phone" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+														<p class="help-block text-danger"></p>
+													</div>
+												</div>
+												<div class="control-group">
+													<div class="form-group floating-label-form-group controls mb-0 pb-2">
+														<label style="color: #ffc107" for="message">Message</label>
+														<input class="form-control" name="message" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+														<p class="help-block text-danger"></p>
+													</div>
+												</div>
+												<br>
+												<div id="success"></div>
+												<div class="form-group">
+													<button type="submit" class="btn btn-secondary btn-xl" id="sendMessageButton">Send</button>
+												</div>
+											</form>
+										</div>
+									</div>
+							</div>
+						</section>
+</body>
+<script
+src="http://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script> -->
+<script src="/resources/js/custom.js"></script>
+<script src="/resources/js/jquery.easing.min.js"></script>
+<script src="/resources/js/jqBootstrapValidation.min.js"></script>
+</html>
